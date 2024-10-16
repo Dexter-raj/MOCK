@@ -60,7 +60,7 @@ void lruPageReplacement(int pages[], int n, int frames) {
         }
 
         // Display the current state of frames
-        cout << "Frames: ";
+        cout << "Frames "<<i+1<<": ";
         for (int j = 0; j < frames; j++) {
             if (frame[j] != -1)
                 cout << frame[j] << " ";
